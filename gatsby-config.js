@@ -6,7 +6,7 @@ module.exports = {
     description: "Developing a 3D printable, open source n95-equivalent respirator for pandemic relief.",
     statement: "The goal of OpenMask is to develop a 3D printable, open source n95-equivalent respirator for pandemic relief.",
     githubURL: "https://github.com/OpenMask",
-    email: "none@none.tld"
+    email: "dival.banerjee@gmail.com"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
