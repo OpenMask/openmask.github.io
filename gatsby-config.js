@@ -1,4 +1,5 @@
 module.exports = {
+  // TODO: update metadata
   siteMetadata: {
     title: "Gatsby Starter - Stellar by HTML5 UP",
     author: "Hunter Chang",
@@ -19,6 +20,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          path: `${__dirname}/src/markdown-pages`,
+          name: `markdown-pages`,
+        },
+      },
+      `gatsby-transformer-remark`,
   ],
 }
