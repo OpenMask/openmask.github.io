@@ -1,9 +1,10 @@
 module.exports = {
   // TODO: update metadata
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP",
+    title: "Open Mask",
+    author: "",
+    description: "Developing a 3D printable, open source n95-equivalent respirator for pandemic relief.",
+    statement: "The goal of OpenMask is to develop a 3D printable, open source n95-equivalent respirator for pandemic relief.",
     githubURL: "https://github.com/OpenMask",
     email: "none@none.tld"
   },

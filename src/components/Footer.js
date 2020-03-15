@@ -1,25 +1,10 @@
 import React from 'react'
 
-import { Link, useStaticQuery, graphql } from 'gatsby'
+import {useSiteMetadata} from '../hooks/use-site-metadata'
 
 
 function Footer(props) {
-    const { site } = useStaticQuery(
-        graphql`
-        query {
-            site {
-                siteMetadata {
-                title
-                description
-                author
-                githubURL
-                email
-                }
-            }
-            }
-        `
-    )
-    const siteMeta = site.siteMetadata
+    const siteMeta = useSiteMetadata()
     return (
         <footer id="footer">
         <section>

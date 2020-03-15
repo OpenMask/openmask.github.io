@@ -1,6 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import Helmet from 'react-helmet'
+import SEO from '../components/seo'
 import { Waypoint } from 'react-waypoint'
 import pic01 from '../assets/images/pic01.jpg'
 import Header from '../components/Header'
@@ -13,21 +13,20 @@ class Index extends React.Component {
     this.state = {
       stickyNav: false,
     }
-  }
+}
 
-  _handleWaypointEnter = () => {
+_handleWaypointEnter = () => {
     this.setState(() => ({ stickyNav: false }))
-  }
+}
 
-  _handleWaypointLeave = () => {
+_handleWaypointLeave = () => {
     this.setState(() => ({ stickyNav: true }))
-  }
+}
 
-  render() {
+render() {
     return (
-      <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
-
+        <Layout>
+        <SEO title="OpenMask" />
         <Header />
 
         <Waypoint
@@ -41,7 +40,8 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  {/* <h2>{siteMeta.statement} */}
+                  {/* </h2> */}
                 </header>
                 <p>
                   Sed lorem ipsum dolor sit amet nullam consequat feugiat
