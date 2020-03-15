@@ -7,8 +7,8 @@ function Footer(props) {
     const siteMeta = useSiteMetadata()
     return (
         <footer id="footer">
-        <section>
-        {/* <h2>Aliquam sed mauris</h2>
+        {/* <section>
+        <h2>Aliquam sed mauris</h2>
         <p>
             Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
             magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
@@ -21,8 +21,8 @@ function Footer(props) {
                 Learn More
             </Link>
             </li>
-        </ul> */}
-        </section>
+        </ul>
+        </section> */}
         <section>
         <h2>Contact</h2>
         <dl className="alt">

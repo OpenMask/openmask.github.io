@@ -1,7 +1,7 @@
 module.exports = {
   // TODO: update metadata
   siteMetadata: {
-    title: "Open Mask",
+    title: "OpenMask",
     author: "",
     description: "Developing a 3D printable, open source n95-equivalent respirator for pandemic relief.",
     statement: "The goal of OpenMask is to develop a 3D printable, open source n95-equivalent respirator for pandemic relief.",
