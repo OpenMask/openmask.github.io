@@ -53,7 +53,7 @@ function Index(props) {
               <li>
                 <h3>Flexible Material</h3>
                 <p>
-                The masks will be made from TPU, which can be printed on FDM 3D printers.
+                The masks will be made from <a href="https://www.treatstock.com/material/tpu">TPU</a>, which can be printed on FDM 3D printers.
                 <br/><br/>
                 TPU is flexible, which reduces the risk of improper face seal.
                 </p>
