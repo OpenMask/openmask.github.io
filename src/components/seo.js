@@ -12,13 +12,15 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            githubURL
+            email
           }
         }
       }
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = site.siteMetadata.description
 
   return (
     <Helmet
