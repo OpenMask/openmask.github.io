@@ -3,6 +3,7 @@ import React, { useState, useCallback } from 'react'
 import SEO from '../components/seo'
 import { Waypoint } from 'react-waypoint'
 import fdm_printer from '../assets/images/fdm_printer.jpg'
+import cadmodel from '../assets/images/cadmodel.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -40,7 +41,7 @@ function Index(props) {
                 </header>
               </div>
               <span className="image">
-                <img src={fdm_printer} alt="" />
+                <img src={cadmodel} alt="" />
               </span>
             </div>
           </section>
@@ -77,7 +78,7 @@ function Index(props) {
           </section>
 
           <section id="extra" className="main">
-              <h2>The first iteration of the mask will be available on Tuesday, March 17th</h2>
+              <h2>View our organization on <a href="https://github.com/openmask">GitHub</a>.</h2>
           </section>
         </div>
       </Layout>
